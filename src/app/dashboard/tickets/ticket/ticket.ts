@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { NewTicket } from "../tickets/new-ticket/new-ticket";
 
 @Component({
   selector: 'app-ticket',
-  imports: [NewTicket],
+  imports: [],
   templateUrl: './ticket.html',
   styleUrl: './ticket.css',
 })
